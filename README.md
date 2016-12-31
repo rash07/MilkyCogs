@@ -2,6 +2,9 @@
 You must have Red Discord Bot in order to use this. </br>
 You can read more @ https://twentysix26.github.io/Red-Docs/
 
+Blade & Soul Fetch Character from NA and EU server. 
+credits to wei0831 (https://github.com/wei0831/Discord_BNS_PlayerInfoBot) 
+
 # To install
 Command: 
 [p]cog repo add milkycogs https://github.com/akuafif/MilkyCogs </br>
@@ -9,11 +12,7 @@ Command:
 [p]cog install milkycogs bnseu </br>
 
 # Usage
-- Blade & Soul </br>
-Fetch Character from NA server. </br>
-credits to wei0831 (https://github.com/wei0831/Discord_BNS_PlayerInfoBot) 
 
-usage: 
 - !bnsna ign
 - !bnseu ign
 
