@@ -1,0 +1,6 @@
+{
+    "AUTHOR" : "akuafif",
+    "DESCRIPTION" : "Usage: [p]bns [ign] to get the character info from EU",
+    "DISABLED" : false,
+    "NAME" : "Searches for character info from EU"
+}

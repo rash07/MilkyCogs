@@ -6,7 +6,7 @@ from discord.ext import commands
 import requests
 from aiohttp import get
 
-class bns:
+class bnsna:
 
 	"""BNS custom commands!"""
 	def __init__(self, bot):
@@ -18,7 +18,7 @@ class bns:
 		return text[begin+len(b):end].strip()
 		
 	@commands.command(pass_context=True)
-	async def bns(self, ctx, *text):
+	async def bnsna(self, ctx, *text):
 		""" Parsing character data from accessing BNS web API
 		"""
 		# URLs
@@ -206,5 +206,5 @@ class bns:
 
 			
 def setup(bot):
-	n = bns(bot)
+	n = bnsna(bot)
 	bot.add_cog(n)
