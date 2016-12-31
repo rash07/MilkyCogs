@@ -4,13 +4,13 @@ You can read more @ https://twentysix26.github.io/Red-Docs/
 
 # To install
 Command: 
-[p]cog repo add milkycogs https://github.com/akuafif/MilkyCogs
-[p]cog install milkycogs bnsna 
-[p]cog install milkycogs bnseu
+[p]cog repo add milkycogs https://github.com/akuafif/MilkyCogs </br>
+[p]cog install milkycogs bnsna </br>
+[p]cog install milkycogs bnseu </br>
 
 # Usage
-- Blade & Soul
-Fetch Character from NA server. 
+- Blade & Soul </br>
+Fetch Character from NA server. </br>
 credits to wei0831 (https://github.com/wei0831/Discord_BNS_PlayerInfoBot) 
 
 usage: 
