@@ -22,8 +22,8 @@ class bnseu:
 		""" Parsing character data from accessing BNS web API
 		"""
 		# URLs
-		BNS_WEB_PROFILE = 'http://{region}-bns.ncsoft.com/ingame/bs/character/profile?c={name}'
-		BNS_WEB_SEARCH = 'http://{region}-bns.ncsoft.com/ingame/bs/character/search/info?c={name}'
+		
+		
 		BNS_REGION = 'na'
 
 		id = None
@@ -55,7 +55,7 @@ class bnseu:
 
 		# Need to convert space to URL encoding character
 		await self.bot.say('*Fetching...*')
-		page = await get('http://eu-bns.ncsoft.com/ingame/bs/character/profile?c=' + name)
+		page = await get
 		# page = await get(BNS_WEB_PROFILE.format(name=text, region=BNS_REGION))
 		content = await page.read()
 		content = fromstring(str(content))
